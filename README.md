@@ -1,115 +1,70 @@
 # 🏹 Python Terminal Adventure Game
 
-A fully-featured **text-based adventure game** built in Python with an integrated account system, persistent progress, and a large branching story world.
+A decision-driven **text-based adventure game** built in Python featuring user accounts, persistent progress, and a branching story system.
 
-> This project focuses on logic design, structured programming, and interactive storytelling — all implemented from scratch.
+> Designed to demonstrate structured programming, control flow, and state management through an interactive project built entirely from scratch.
 
 ---
 
 ## 🌐 Play Online
 
-[![Run on Replit](https://replit.com/badge/github)](https://replit.com/@Abdelaziz-Gamal/python-text-adventure-game-1)
+Run instantly in your browser (no setup required):
 
-Play directly in your browser — no setup required.
-
----
-
-## 🎮 About The Game
-
-This is not a simple linear story.
-
-The game is built as a **decision-driven adventure engine** where:
-
-- Every choice affects your path
-- Outcomes change dynamically
-- Randomized events make each run different
-- Multiple endings exist (good, bad, hidden, and unexpected)
-
-Players must make smart decisions to survive and achieve the highest score.
+👉 https://replit.com/@Abdelaziz-Gamal/python-text-adventure-game-1  
+Click **Run** to start playing.
 
 ---
 
-## 🧠 Key Concepts Demonstrated
+## 🎮 Game Overview
 
-This project was designed to apply core Computer Science concepts including:
+This is not a linear story.  
+Player decisions dynamically shape the journey, affecting events, score, and final outcome.
 
-- Structured Programming
-- State Management
-- File Persistence
-- Input Validation
-- Branching Logic Systems
-- Randomized Event Generation
-- Modular Function Design
-- User Data Handling
-- Control Flow Architecture
+The game emphasizes:
+- Meaningful choices
+- Replayability
+- Logic-driven progression rather than graphics
 
 ---
 
 ## ✨ Features
 
-### 🔐 Account System
-- Sign Up / Sign In functionality
-- Stored using JSON-based persistence
-- Each user has their own high score
+- 🔐 **Account System** — Sign Up / Sign In with JSON-based storage  
+- 💾 **Persistent Data** — Progress and high scores saved per user  
+- 🌍 **Branching Storyline** — 60+ decision paths  
+- 🧭 **Multiple Endings** — 32 total endings (8 winning, 24 losing)  
+- 🎲 **Randomized Events** — Each playthrough feels different  
+- 🏆 **Scoring System** — Strategy-based outcomes, not luck  
+- 🖥️ **Pure Terminal Game** — No external libraries required
 
-### 💾 Persistent Progress
-- Accounts and scores saved locally
-- Data loaded automatically on next session
+---
 
-### 🌍 Large Branching Story World
-- 60+ decision branches
-- Many unique story paths
+## 🧠 Concepts Demonstrated
 
-### 🧭 Multiple Endings System
-- The game contains 32 different endings, including:
-- 8 Winning Endings — achieved through careful decision-making and strategic choices.
-- 24 Losing Endings — resulting from risky, impulsive, or incorrect paths.
-- This design encourages players to replay the game, explore alternative decisions, and discover hidden successful routes.
-
-### 🎲 Randomized Gameplay Elements
-Each playthrough includes variations such as:
-- Different enemies
-- Environmental descriptions
-- Sound and atmosphere changes
-
-This ensures **high replayability**.
-
-### 🏆 Scoring System
-- Choices influence your total score
-- Winning requires strategy (not luck)
-- Risk vs reward decisions matter
-
-### 🖥️ Pure Terminal Experience
-- No external libraries required
-- Runs entirely in the command line
-- Focused on logic rather than graphics
+- Structured Programming
+- Control Flow Design
+- State Management
+- File Persistence (JSON)
+- Input Validation
+- Modular Function Design
+- Random Event Handling
 
 ---
 
 ## 🛠️ Technologies Used
 
-- Python (Core Language)
-- JSON (Data Storage)
-- Random Module (Dynamic Events)
-- Time Module (Narrative pacing)
+- Python  
+- JSON  
+- Random Module  
+- Time Module  
 
-No frameworks. No engines. Everything implemented manually.
-
----
-
-## 📦 Project Size
-
-- **1130+ lines of code**
-- Fully written from scratch
-- Function-driven architecture
-- Designed for readability and scalability
+No frameworks or engines — all logic implemented manually.
 
 ---
 
-## ▶️ How to Run Locally
-
-Clone the repository:
+## ▶️ Run Locally
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/Abdelaziz-Gamal/python-text-adventure-game
+cd python-text-adventure-game
+python main.py
