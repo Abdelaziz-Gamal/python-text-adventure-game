@@ -1,5 +1,7 @@
 # 🏹 Python Terminal Adventure Game
 
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+
 A decision-driven **text-based adventure game** built in Python featuring user accounts, persistent progress, and a branching story system.
 
 > Designed to demonstrate structured programming, control flow, and state management through an interactive project built entirely from scratch.
@@ -67,4 +69,4 @@ No frameworks or engines — all logic implemented manually.
 ```bash
 git clone https://github.com/Abdelaziz-Gamal/python-text-adventure-game
 cd python-text-adventure-game
-python main.py
+python full_adventure_game.py
